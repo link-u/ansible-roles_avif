@@ -1,0 +1,9 @@
+---
+# defaults/main.yml (avif)
+# Prefix : avif
+
+## 基本設定
+avif_install_flag: True ## インストールフラグ
+avif_packages:
+  - "cavif"
+  - "davif"

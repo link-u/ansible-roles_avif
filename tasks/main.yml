@@ -1,0 +1,8 @@
+---
+# tasks/main.yml (avif)
+
+- name: Install tasks
+  import_tasks: install.yml
+  when:
+    - avif_install_flag | bool
+  tags: ["install"]
