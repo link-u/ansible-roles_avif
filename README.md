@@ -15,8 +15,6 @@ cavif と davif をインストールする ansible role
 - hosts:
     - servers
   become: True
-  vars:
-    ufw_install_flag: False
   roles:
     - { role: avif, tags: ["avif"] }
 ```
