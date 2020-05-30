@@ -32,6 +32,3 @@ avif_packages:
   roles:
     - { role: avif, tags: ["avif"] }
 ```
-
-## 各種変数について
-Comming soon.
