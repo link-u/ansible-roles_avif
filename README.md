@@ -11,6 +11,20 @@ cavif と davif をインストールする ansible role
 
 ## 使い方 (ansible)
 
+### role 変数
+
+```yaml
+## 基本設定
+avif_install_flag: True ## インストールフラグ
+avif_packages:
+  - "cavif"
+  - "davif"
+
+# ※ 特に group_vars で修正するような項目はない
+```
+
+### プレイブックの例
+
 ```yaml
 - hosts:
     - servers
