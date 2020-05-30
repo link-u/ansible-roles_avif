@@ -23,7 +23,7 @@ avif_packages:
 # ※ 特に group_vars で修正するような項目はない
 ```
 
-### プレイブックの例
+### プレイブック例
 
 ```yaml
 - hosts:
