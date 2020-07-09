@@ -32,3 +32,6 @@ avif_packages:
   roles:
     - { role: avif, tags: ["avif"] }
 ```
+
+## License
+MIT
