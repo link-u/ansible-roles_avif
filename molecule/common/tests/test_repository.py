@@ -14,11 +14,7 @@ def test_added_repository_pkg_link_u_co_jp(host):
         "state=present")["changed"]
 
     ## link-u apt リポジトリのインストールテスト
-    proc = subprocess.run(
-        ["lsb_release", "-cs"],
-        stdout = subprocess.PIPE,
-        stderr = subprocess.PIPE)
-    distro_name = proc.stdout.decode("utf8")[:-1]
+    distro_name = host.system_info.codename
     assert not host.ansible(
         "apt_repository",
         "repo=\"deb https://pkg.link-u.co.jp/" + \
