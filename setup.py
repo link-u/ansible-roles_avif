@@ -1,3 +1,3 @@
 from setuptools import setup
 
-setup(name='ansible-roles_avif')
+setup(name='ci-ansible-roles')
