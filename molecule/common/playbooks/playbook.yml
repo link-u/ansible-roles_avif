@@ -3,4 +3,4 @@
   hosts: all
   become: yes
   roles:
-    - { role: "ansible-roles_avif", tags: ["avif"] }
+    - { role: "{{ (playbook_dir ~ '/../../..') | realpath }}" }
