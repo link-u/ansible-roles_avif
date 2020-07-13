@@ -6,9 +6,9 @@ language: shell
 branches:
   only:
     - master
-    - /^feature/(.)*$/
-    - /^hotfix/(.)*$/
-    - /^develop/(.)*$/
+    - /^feature(.)*$/
+    - /^hotfix(.)*$/
+    - /^develop(.)*$/
 
 env:
   jobs:
