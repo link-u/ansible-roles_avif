@@ -10,8 +10,8 @@ lint: |
   ansible-lint .
 
 platforms:
-  - name: ${MOLECULE_DISTRO:-focal}-${ANSIBLE_VER:-ansible}
-    alias: ubuntu/${MOLECULE_DISTRO:-focal}/amd64
+  - name: ${MOLECULE_DISTRO}-${ANSIBLE_VER}
+    alias: ubuntu/${MOLECULE_DISTRO}/amd64
 
 provisioner:
   name: ansible
