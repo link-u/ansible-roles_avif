@@ -1,13 +1,14 @@
 # AVIF
 
+![Travis](https://travis-ci.org/link-u/ansible-roles_avif.svg?branch=master)
+
 ## 概要
 cavif と davif をインストールする ansible role
 
 ## 動作確認バージョン
 
-- Ubuntu 18.04 (bionic)
-- ansible >= 2.8
-- Jinja2 2.10.3
+* Ubuntu: 18.04, 20.04
+* ansible: 2.8, 2.9
 
 ## 使い方 (ansible)
 
