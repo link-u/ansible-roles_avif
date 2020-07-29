@@ -1,6 +1,6 @@
 # AVIF
 
-![Travis](https://travis-ci.org/link-u/ansible-roles_avif.svg?branch=master)
+![ansible ci](https://github.com/link-u/ansible-roles_avif/workflows/ansible%20ci/badge.svg)
 
 ## 概要
 cavif と davif をインストールする ansible role
